@@ -8,7 +8,7 @@ permalink: /doc/en/lb4/Using-strong-error-handler.html
 
 # strong-error-handler
 
-As the part of the dependencies of
+As a dependency of
 [`@loopback/rest`](https://github.com/strongloop/loopback-next/tree/master/packages/rest),
 package `strong-error-handler` is an error handler for use in both development
 (debug) and production environments.
@@ -20,7 +20,7 @@ requests to the app. Errors are handled by one of the Sequence actions,
 [`reject`](Sequence.md#handling-errors), which calls `strong-error-handler`
 package to send back an HTTP response describing the error.
 
-LB4 apps require 3.x versions of `strong-error-handler`.
+LoopBack 4 apps require 3.x versions of `strong-error-handler`.
 
 ## Usage
 
